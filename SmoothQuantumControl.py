@@ -25,6 +25,8 @@ class Q_System:
         # returns drift
         return self.Ho
 
+    ## to be completed latter by adding modifier and getter methods 
+
 
 #######################################################################
 
@@ -38,6 +40,9 @@ def Sol_sys(Ho, Controls, Num_Ctrl, Num_har):
     Num_harm = Number of Fourier harmonics
 
     '''
+
+
+    # will be written after developing a function for the solution of dynamical evolution of qaunntum system
 ###########################################################################
 
 def evolution(U, t, QS, Num_har, A, w):
@@ -70,7 +75,18 @@ def evolution(U, t, QS, Num_har, A, w):
         count = count + 16
 
 
-# to be written latter
+# to be written latter by adding properly structured code for any number of qubits 
+
+
+
+
+
+
+
+
+
+
+
 
 
 #########################################################################
